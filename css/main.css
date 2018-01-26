@@ -11,7 +11,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto Slab", serif;
 }
 
 *, *::before, *::after {
@@ -25,4 +25,49 @@ body {
 .img-flex {
   display: block;
   width: 100%;
+}
+
+.xs-1 {
+  width: 100%;
+}
+
+img {
+  position: relative;
+}
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  position: absolute;
+  max-width: 15em;
+  background-color: #000;
+  border-radius: 5px;
+  padding: .75em 1em;
+  opacity: .5;
+  width: 66.6667%;
+  font-size: .85rem;
+}
+
+.first {
+  top: 9.5em;
+  left: .5em;
+  color: #fff;
+  opacity: .75;
+}
+
+.second {
+  top: 25.25em;
+  left: .5em;
+  color: #fff;
+  opacity: .75;
+}
+
+.third {
+  display: none;
+  top: 41em;
+  left: .5em;
+  color: #fff;
+  opacity: .75;
 }
