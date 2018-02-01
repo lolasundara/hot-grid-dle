@@ -80,3 +80,19 @@ figcaption {
     top: 27em;
   }
 }
+
+@media only screen and (min-width: 38em) {
+
+  .m-1-2 {
+    width: 50%;
+  }
+
+  .first {
+    top: 6.5em;
+  }
+
+  .second {
+    top: 6.5em;
+    left: 19.5em;
+  }
+}
