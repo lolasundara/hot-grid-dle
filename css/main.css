@@ -12,6 +12,8 @@ html {
   text-size-adjust: 100%;
 
   font-family: "Roboto Slab", serif;
+  font-size: 100%;
+  line-height: 1.3;
 }
 
 *, *::before, *::after {
@@ -44,29 +46,26 @@ figcaption {
   max-width: 15em;
   background-color: #000;
   border-radius: 5px;
-  padding: .75em 1em;
+  padding: 1em;
   opacity: .5;
-  width: 66.6667%;
-  font-size: .85rem;
 }
 
 .first {
-  top: 9.5em;
+  top: 7em;
   left: .5em;
   color: #fff;
   opacity: .75;
 }
 
 .second {
-  top: 25.25em;
+  top: 20.5em;
   left: .5em;
   color: #fff;
   opacity: .75;
 }
 
 .third {
-  display: none;
-  top: 41em;
+  top: 40.5em;
   left: .5em;
   color: #fff;
   opacity: .75;
