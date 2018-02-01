@@ -96,3 +96,24 @@ figcaption {
     left: 19.5em;
   }
 }
+
+@media only screen and (min-width: 60em) {
+
+  .l-1-3 {
+    width: 33.3333%;
+  }
+
+  .first {
+    top: 7em;
+  }
+
+  .second {
+    top: 7em;
+    left: 20.5em;
+  }
+
+  .third {
+    top: 7em;
+    left: 40.5em;
+  }
+}
